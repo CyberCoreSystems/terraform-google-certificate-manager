@@ -1,5 +1,7 @@
 # Certificate Manager (certificate map)
 
+[![IaC Bazaar: live-tested](https://www.iac-bazaar.com/api/artifacts/gcp-certificate-manager/badge)](https://www.iac-bazaar.com/catalog/gcp-certificate-manager?utm_source=syndication&utm_medium=readme&utm_campaign=artifact)
+
 A Certificate Manager certificate map for external HTTPS load balancers, with an optional Google-managed certificate and DNS authorization provisioned when you supply a domain you control.
 
 This module was **applied to a real Google Cloud account, verified, and destroyed** on 2026-06-30 - not just `terraform validate`d.
@@ -45,7 +47,8 @@ google >= 7.0, < 8.0
 
 ## More modules
 
-This is one of **179 verified Terraform modules across 19 cloud platforms** -
+This is one of **673 Terraform modules across 19 cloud platforms** on
+IaC Bazaar, 113 of them live-tested:
 AWS, Azure, GCP, Oracle OCI, Cloudflare, Akamai, DigitalOcean, Linode, Hetzner,
 Vultr, Scaleway, Alibaba, IBM, UpCloud, Civo, Exoscale, OVH, Tencent and Huawei.
 
@@ -53,7 +56,7 @@ Browse the full catalogue at **[www.iac-bazaar.com](https://www.iac-bazaar.com)*
 production landing zones for AWS, Azure and GCP that have each been live-tested
 as a single composed apply.
 
-- Module page: [https://www.iac-bazaar.com/catalog/gcp-certificate-manager](https://www.iac-bazaar.com/catalog/gcp-certificate-manager)
+- Terraform module 1.0.0, live-tested on IaC Bazaar: [Certificate Manager (certificate map)](https://www.iac-bazaar.com/catalog/gcp-certificate-manager?utm_source=syndication&utm_medium=readme&utm_campaign=artifact)
 - How verification works: [https://www.iac-bazaar.com/verified](https://www.iac-bazaar.com/verified)
 
 ## Licence
